@@ -18,6 +18,20 @@ select {
     transition: color 0.3s ease, background-color 0.3s ease, border-bottom-color 0.3s ease;
   }
 
+  /* For IE <= 11 */
+  select::-ms-expand {
+    display: none; 
+  }
+
+  
+
+  select:hover,
+  select:focus {
+    color: #c0392b;
+    background-color: white;
+    border-bottom-color: #DCDCDC;
+  }
+
 body {
     background-color: #ffe9c8;
     font-family:' URW Chancery L', cursive;
@@ -45,6 +59,19 @@ h3 {
     margin-top: 10px;
     position: relative;
 }
+
+fieldset{
+	padding: 20px;
+	margin: 20px 0;
+	border: 1px solid #cccccc;
+	font-size: 16px;
+
+}
+legend{
+	margin-left: 20px;
+	font-size: 20px;
+}
+
 
 .container-fluid{
 	width: 100%;
