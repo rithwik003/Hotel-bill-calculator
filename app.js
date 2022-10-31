@@ -29,3 +29,15 @@ function showBill(order,Price,quantity){
     // console.log(Price);
     // console.log(quantity);
 }
+var list1 = [];
+		var list2 = [];
+		var list3 = [];
+		var list4 = [];
+
+		var n = 1;
+		var x = 0;
+
+		function AddRow(){
+
+			
+		}
