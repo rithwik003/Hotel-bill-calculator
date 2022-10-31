@@ -100,3 +100,8 @@ input {
   background: rgba(255,255,255,0.5);
   margin: 0 0 10px 0;
 }
+h2{
+	text-align: center;
+	margin: 40px auto;
+	font-size: 50px;
+}
