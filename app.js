@@ -41,3 +41,35 @@ var list1 = [];
 
 			
 		}
+		function addItem(){
+
+			var coffee = document.getElementById("coffee").value;
+			var addon =  document.getElementById("add-ons").value;
+			var quantity =  document.getElementById("quantity").value;
+			var Price=0;
+			var order="";
+			
+	// console.log(quantity);
+	
+					if (coffee=='c1') {
+							
+							if (addon == 'a1') {
+									Price = quantity*(60);
+									order = "Espresso with Milk";
+									showBill(order,Price,quantity)
+									
+							}
+	
+							else if (addon == 'a2') {
+									Price = quantity*(75);
+									order = "Espresso with Cream";
+									showBill(order,Price,quantity)
+							}
+	
+							else if (addon == 'a3') {
+									Price = quantity*(100);
+									order = "Espresso with Latte";
+									showBill(order,Price,quantity)
+							}
+					}
+	}
