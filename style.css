@@ -17,7 +17,7 @@ select {
     -moz-appearance: none;
     transition: color 0.3s ease, background-color 0.3s ease, border-bottom-color 0.3s ease;
   }
-<<<<<<< HEAD
+
   /* For IE <= 11 */
   select::-ms-expand {
     display: none; 
@@ -31,7 +31,6 @@ select {
     background-color: white;
     border-bottom-color: #DCDCDC;
   }
-=======
 
 body {
     background-color: #ffe9c8;
@@ -49,4 +48,15 @@ body {
     margin-top: 10px;
     position: relative;
 }
->>>>>>> 5b38910b081940749c32be562b21ace710819858
+fieldset{
+	padding: 20px;
+	margin: 20px 0;
+	border: 1px solid #cccccc;
+	font-size: 16px;
+
+}
+legend{
+	margin-left: 20px;
+	font-size: 20px;
+}
+
