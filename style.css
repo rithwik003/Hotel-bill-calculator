@@ -34,3 +34,17 @@ body {
     margin-top: 10px;
     position: relative;
 }
+
+.container-fluid{
+	width: 100%;
+	margin: 0 auto;
+	max-width: 1000px;
+}
+.container{
+	max-width: 500px;
+	width: 50%;
+	float: left;
+	margin: 0 auto;
+	border: none;
+	padding: 20px;
+}
