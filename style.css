@@ -39,6 +39,17 @@ body {
     color: #b95d00;
 }
 
+input {
+	width: auto;
+	margin: 10px;
+	padding: 5px;
+	font-size: 18px;
+}
+
+h3 {
+	margin: 5px 0;
+}
+
 .order {
     margin: 100px auto;
 }
@@ -48,6 +59,7 @@ body {
     margin-top: 10px;
     position: relative;
 }
+
 fieldset{
 	padding: 20px;
 	margin: 20px 0;
@@ -60,3 +72,17 @@ legend{
 	font-size: 20px;
 }
 
+
+.container-fluid{
+	width: 100%;
+	margin: 0 auto;
+	max-width: 1000px;
+}
+.container{
+	max-width: 500px;
+	width: 50%;
+	float: left;
+	margin: 0 auto;
+	border: none;
+	padding: 20px;
+}
