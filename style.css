@@ -8,3 +8,9 @@ body {
 .order {
     margin: 100px auto;
 }
+
+.coffee {
+    width: 250px;
+    margin-top: 10px;
+    position: relative;
+}
