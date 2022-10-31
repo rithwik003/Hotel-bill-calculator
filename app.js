@@ -29,7 +29,8 @@ function showBill(order,Price,quantity){
     // console.log(Price);
     // console.log(quantity);
 }
-var list1 = [];
+
+        var list1 = [];
 		var list2 = [];
 		var list3 = [];
 		var list4 = [];
@@ -41,38 +42,40 @@ var list1 = [];
 
 			
 		}
-		function addItem(){
 
-			var coffee = document.getElementById("coffee").value;
-			var addon =  document.getElementById("add-ons").value;
-			var quantity =  document.getElementById("quantity").value;
-			var Price=0;
-			var order="";
-			
-	// console.log(quantity);
-	
-					if (coffee=='c1') {
-							
-							if (addon == 'a1') {
-									Price = quantity*(60);
-									order = "Espresso with Milk";
-									showBill(order,Price,quantity)
-									
-							}
-	
-							else if (addon == 'a2') {
-									Price = quantity*(75);
-									order = "Espresso with Cream";
-									showBill(order,Price,quantity)
-							}
-	
-							else if (addon == 'a3') {
-									Price = quantity*(100);
-									order = "Espresso with Latte";
-									showBill(order,Price,quantity)
-							}
-					}
-					else if (coffee=='c2') {
+function addItem(){
+
+    var coffee = document.getElementById("coffee").value;
+    var addon =  document.getElementById("add-ons").value;
+    var quantity =  document.getElementById("quantity").value;
+    var Price=0;
+    var order="";
+    
+// console.log(quantity);
+
+        if (coffee=='c1') {
+            
+            if (addon == 'a1') {
+                Price = quantity*(60);
+                order = "Espresso with Milk";
+                showBill(order,Price,quantity)
+                
+            }
+
+            else if (addon == 'a2') {
+                Price = quantity*(75);
+                order = "Espresso with Cream";
+                showBill(order,Price,quantity)
+            }
+
+            else if (addon == 'a3') {
+                Price = quantity*(100);
+                order = "Espresso with Latte";
+                showBill(order,Price,quantity)
+            }
+        }
+
+        else if (coffee=='c2') {
             
             if (addon == 'a1') {
                 Price = quantity*(80);
@@ -92,25 +95,38 @@ var list1 = [];
                 showBill(order,Price,quantity)
             }
         }
-				else if (coffee=='c3') {
+
+        else if (coffee=='c3') {
             
-					if (addon == 'a1') {
-							Price = quantity*(100);
-							order = "Latte with Milk";
-							showBill(order,Price,quantity)
-					}
+            if (addon == 'a1') {
+                Price = quantity*(100);
+                order = "Latte with Milk";
+                showBill(order,Price,quantity)
+            }
 
-					else if (addon == 'a2') {
-							Price = quantity*(125);
-							order = "Latte with Cream";
-							showBill(order,Price,quantity)
-					}
+            else if (addon == 'a2') {
+                Price = quantity*(125);
+                order = "Latte with Cream";
+                showBill(order,Price,quantity)
+            }
 
-					else if (addon == 'a3') {
-							Price = quantity*(150);
-							order = "Latte with Latte";
-							showBill(order,Price,quantity)
-					}
-			}
+            else if (addon == 'a3') {
+                Price = quantity*(150);
+                order = "Latte with Latte";
+                showBill(order,Price,quantity)
+            }
+        }
 
-	}
+        // console.log(order);
+        // console.log(Price);
+        // console.log(quantity);
+
+
+}
+
+
+
+
+function showtotal(total){
+    
+}
