@@ -72,4 +72,45 @@ var list1 = [];
 									showBill(order,Price,quantity)
 							}
 					}
+					else if (coffee=='c2') {
+            
+            if (addon == 'a1') {
+                Price = quantity*(80);
+                order = "Cappuccino with Milk";
+                showBill(order,Price,quantity)
+            }
+
+            else if (addon == 'a2') {
+                Price = quantity*(90);
+                order = "Cappuccino with Cream";
+                showBill(order,Price,quantity)
+            }
+
+            else if (addon == 'a3') {
+                Price = quantity*(125);
+                order = "Cappuccino with Latte";
+                showBill(order,Price,quantity)
+            }
+        }
+				else if (coffee=='c3') {
+            
+					if (addon == 'a1') {
+							Price = quantity*(100);
+							order = "Latte with Milk";
+							showBill(order,Price,quantity)
+					}
+
+					else if (addon == 'a2') {
+							Price = quantity*(125);
+							order = "Latte with Cream";
+							showBill(order,Price,quantity)
+					}
+
+					else if (addon == 'a3') {
+							Price = quantity*(150);
+							order = "Latte with Latte";
+							showBill(order,Price,quantity)
+					}
+			}
+
 	}
