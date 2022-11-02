@@ -5,9 +5,9 @@ select {
     font-weight: bold;
     cursor: pointer;
     border-radius: 0;
-    background-color: #c0392b;
+    background-color: #b8a815;
     border: none;
-    border-bottom: 2px solid #962d22;
+    border-bottom: 2px solid #227f96;
     color: white;
     appearance: none;
     padding: 10px;
@@ -32,10 +32,10 @@ select {
   }
 
 body {
-    background-color: #ffe9c8;
+    background-color: #abdcde;
     font-family:' URW Chancery L', cursive;
     font-size: 18px;
-    color: #b95d00;
+    color: #ffffff;
 }
 
 input {
@@ -88,7 +88,7 @@ legend{
 input {
   border: 5px solid white; 
   -webkit-box-shadow: 
-    inset 0 0 8px  rgba(0,0,0,0.1),
+    inset 0 0 8px  rgba(0, 0, 0, 0.1),
           0 0 16px rgba(0,0,0,0.1); 
   -moz-box-shadow: 
     inset 0 0 8px  rgba(0,0,0,0.1),
@@ -136,9 +136,9 @@ table tr td:last-child{
   font-weight: bold;
   cursor: pointer;
   border-radius: 0;
-  background-color: #c0392b;
+  background-color: #b8a815;
   border: none;
-  border-bottom: 2px solid #962d22;
+  border-bottom: 2px solid #227f96;
   color: white;
   appearance: none;
   padding: 10px;
@@ -146,6 +146,7 @@ table tr td:last-child{
   -webkit-appearance: none;
   -moz-appearance: none;
   transition: color 0.3s ease, background-color 0.3s ease, border-bottom-color 0.3s ease;
+  
 }
 
 .container-fluid{
