@@ -1,7 +1,10 @@
 var total=0;
 
 function showBill(order,Price,quantity){
-
+    if(quantity<1){
+        window.alert("please enter an positive value");
+    }
+    else{
     var AddRown = document.getElementById('show');
 			var NewRow = AddRown.insertRow(n);
 
@@ -28,6 +31,7 @@ function showBill(order,Price,quantity){
     // console.log(order);
     // console.log(Price);
     // console.log(quantity);
+    }
 }
 
         var list1 = [];
@@ -123,7 +127,6 @@ function addItem(){
 
 
 }
-
 
 
 
